@@ -1,0 +1,23 @@
+.input-group-prepend,
+.input-group-prepend span{
+    min-width: 100px;
+}
+
+input[type=color]{
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+.ml--1{
+    margin-left: -1px;
+}
+
+.input-group>.input-group-prepend:not(:first-child)>.input-group-text{
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius:  0.25rem;
+}
+
+#qrcode{
+    width: 256px;
+    height: 256px;
+}
